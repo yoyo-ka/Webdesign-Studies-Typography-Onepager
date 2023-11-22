@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Thasadith:ital,wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Vibur&family=Wire+One&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Container 1 ~ Winter 1 (Festlich) */
+
+#container-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #32605e;
+}
+
+#container-1 .wrapper {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 220px;
+}
+
+#container-1 h1 {
+    font: 110px 'Gwendolyn', 'Brush Script MT', Script, cursive;
+    color: #e49c9c;
+    text-shadow: 1px 1px 2px #6d2525;
+    margin: 0 280px;
+    padding-bottom: 15px;
+    background-color: #e2e0cd;
+    border: solid 3px #8ec1a9;
+    border-radius: 120px;
+}
+
+#container-1 h2 {
+    font: italic 36px 'Thasadith', sans-serif;
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+    color: #8ec1a9;
+    margin: 30px;
+}
+
+#container-1 p {
+    font: 20px/150% 'Thasadith', sans-serif;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    color: #e2e0cd;
+    margin: 30px 500px;
+    padding: 20px 0;
+    border-top: dotted 2px #8ec1a9;
+    border-bottom: dotted 2px #8ec1a9;
+}
+
+#container-1 p:last-child {
+    margin-top: 50px;
+    padding: 0;
+    border: none;
+}
+
+#container-1 a {
+    font-weight: bold;
+    color: #32605e;
+    padding: 10px 25px;
+    background-color: #e49c9c;
+    border-radius: 40px;
+}
+
+#container-1 a:hover {
+    color: #e2e0cd;
+    background-color: transparent;
+    border: solid 2px #e2e0cd;
+}
+
+/* Container 2 ~ Winter 2 (Eisblock) */
+
+#container-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #8cbde8;
+}
+
+#container-2 .wrapper {
+    margin: 0 auto; 
+    padding: 130px 640px;
+}
+
+#container-2 h1 {
+    font: 88px 'Rubik Dirt', 'Papyrus', fantasy;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 3px 3px 1px #2b4c6a;
+    margin-bottom: 20px;
+}
+
+#container-2 h2 {
+    font: bold 28px 'Josefin Slab', serif;
+    letter-spacing: 1px;
+    color: #ede599;
+    text-shadow: 1px 1px 1px #2b4c6a;
+    text-align: center;
+    padding: 12px 0 8px;
+    margin-bottom: 20px;
+    background-color: #3490ce;
+    border-radius: 5px;
+}
+
+#container-2 p {
+    font: bold 18px/150% 'Josefin Slab', serif;
+    letter-spacing: 2px;
+    color: #2b4c6a;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#container-2 a {
+    color: #2b4c6a;
+    padding: 5px 12px;
+    border-left: solid 30px #3490ce;
+    border-bottom: solid 2px #3490ce;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#container-2 a:hover {
+    color: #ede599;
+    text-shadow: 1px 1px 1px #2b4c6a;
+    border-left-color: #ede599;
+    border-bottom-color: #ede599;
+}
+
+/* Container 3 ~ Redesign cupcakeberlin.de 1 */
+
+#container-3 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+#container-3 .wrapper {
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+#container-3 h1 {
+    font: 96px 'Fredericka the Great', 'Georgia', serif;
+    letter-spacing: 5px;
+    color: #d47590;
+    text-align: center;
+    margin: 0 250px;
+    padding: 0 22px;
+    border: dotted 10px transparent;
+    border-left-color: #d47590;
+    border-right-color: #d47590;
+    border-radius: 140px;
+}
+
+#container-3 h2 {
+    font: bold 36px 'Indie Flower', fantasy;
+    letter-spacing: 3px;
+    color: #675250;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding: 0 500px;
+}
+
+#container-3 p {
+    font: 22px/160% 'Source Sans Pro', sans-serif;
+    color: #675250;
+    text-align: justify;
+    margin: 32px 0;
+    padding: 0 500px;
+}
+
+#container-3 p:last-child {
+    font: 26px 'Indie Flower', fantasy;
+    text-align: right;
+    margin-top: 40px;
+}
+
+#container-3 a {
+    color: #675250;
+    padding: 12px 24px 10px;
+    border: dotted 3px #d47590;
+    border-radius: 46px;
+}
+
+#container-3 a:hover {
+    background-color: #ffd0dd;
+}
+
+/* Container 4 ~ Redesign cupcakeberlin.de 2 */
+
+#container-4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3e4ca;
+}
+
+#container-4 .wrapper {
+    text-align: right;
+    margin: 0 auto;
+}
+
+#container-4 h1 {
+    font: 900 140px 'Wire One', Impact, fantasy;
+    letter-spacing: 10px;
+    color: #d5b8d0;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #40365f;
+    padding: 80px 650px 30px 350px;
+}
+
+#container-4 h2 {
+    font: lighter 56px 'Vibur', 'Brush Script MT', serif;
+    color: #40365f;
+    text-transform: lowercase;
+    text-align: left;
+    margin: 10px 350px 0 500px;
+    padding: 10px 0 10px 40px;
+    border-left: dotted 10px #d5b8d0;
+    border-bottom: dotted 10px #d5b8d0;
+}
+
+#container-4 p {
+    font: 22px/150% 'Dosis', sans-serif;
+    word-spacing: 1.5px;
+    color: #333333;
+    margin: -10px 350px 0 500px;
+    padding: 25px 30px 25px 100px;
+    border-right: dotted 10px #d5b8d0;
+}
+
+#container-4 p:last-child {
+    margin-top: 4px;
+    margin-right: 350px;
+    padding: 0;
+    border: none;
+}
+
+#container-4 a {
+    font-size: larger;
+    color: #40365f;
+    padding: 12px 30px;
+    background-color: #d5b8d0;
+    border: solid 2px transparent;
+    border-radius: 5px;
+}
+
+#container-4 a:hover {
+    font-weight: bolder;
+    border: solid 2px #40365f;
+}
